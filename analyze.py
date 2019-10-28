@@ -1,12 +1,16 @@
-
-def calculate_histogram(source_text):
-	with open(source_text) as book:
+def read_file(file):
+	with open(file) as book:
 		data = book.readlines()
 	
 	words = [word.strip() for word in data]
 	text_to_use = ' '.join(words)
 	
 	words_list = text_to_use.split(' ')
+	return words_list
+
+
+def calculate_histogram(source_text):
+	words_list = read_file(source_text)
 	
 	text_dict = {}
 	for word in words_list:
