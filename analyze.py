@@ -2,14 +2,14 @@ def read_file(file):
 	with open(file) as book:
 		data = book.readlines()
 	
-	words = [word.strip() for word in data]
+	words = [word.strip(" ' , @ $ , \t \n ").lower() for word in data]
 	text_to_use = ' '.join(words)
 	
 	words_list = text_to_use.split(' ')
 	return words_list
 
 
-def calculate_histogram(source_text):
+def calculate_histogram_dict(source_text):
 	words_list = read_file(source_text)
 	
 	text_dict = {}
@@ -31,4 +31,20 @@ def frequency(word, histogram):
 		return f'No Such Word'
 
 
-print(calculate_histogram('opticks.txt'))
+def calculate_histogram_lists(source_text):
+	histogram = []
+	text_dict = calculate_histogram_dict(source_text)
+	for k, v in text_dict.items():
+		histogram.append([k, v])
+	return print(histogram)
+
+
+def calculate_histogram_tuples(source_text):
+	histogram = []
+	text_dict = calculate_histogram_dict(source_text)
+	for k, v in text_dict.items():
+		histogram.append((k, v))
+	return print(histogram)
+
+
+calculate_histogram_lists('opticks.txt')
