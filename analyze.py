@@ -47,4 +47,4 @@ def calculate_histogram_tuples(source_text):
 	return print(histogram)
 
 
-calculate_histogram_lists('opticks.txt')
+calculate_histogram_tuples('opticks.txt')
