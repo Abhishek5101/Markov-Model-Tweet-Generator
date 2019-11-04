@@ -41,5 +41,4 @@ def test_sample(histogram):
 	print(fish_count, one_count, two_count)
 	
 
-
 test_sample(histogram('one two fish'))
