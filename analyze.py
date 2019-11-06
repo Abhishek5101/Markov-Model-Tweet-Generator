@@ -1,3 +1,6 @@
+# from string import punctuation
+
+
 def read_file(file):
 	with open(file) as book:
 		data = book.readlines()
