@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3121a130-feb5-4536-83db-f5fd5597a79d" name="Default Changelist" comment="listogram completed">
-      <change afterPath="$PROJECT_DIR$/first_order_markov.py" afterDir="false" />
+    <list default="true" id="3121a130-feb5-4536-83db-f5fd5597a79d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist.py" afterDir="false" />
     </list>
@@ -220,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573428445458</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added few methods on LinkedList class">
+      <created>1573516982542</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1573516982542</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,6 +254,7 @@
     <MESSAGE value="new dictogram changes by Alan added" />
     <MESSAGE value="dictogram completed" />
     <MESSAGE value="listogram completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="listogram completed" />
+    <MESSAGE value="added few methods on LinkedList class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added few methods on LinkedList class" />
   </component>
 </project>
