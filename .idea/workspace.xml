@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3121a130-feb5-4536-83db-f5fd5597a79d" name="Default Changelist" comment="delete method added">
-      <change afterPath="$PROJECT_DIR$/markov.py" afterDir="false" />
+    <list default="true" id="3121a130-feb5-4536-83db-f5fd5597a79d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markov.py" beforeDir="false" afterPath="$PROJECT_DIR$/markov.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,19 +82,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for linkedlist.test_linked_list" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="random" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tweetGenerator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="/usr/local/Cellar/python/3.7.4/Frameworks/Python.framework/Versions/3.7/lib/python3.7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;linkedlist.test_linked_list&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="/usr/local/Cellar/python/3.7.4/Frameworks/Python.framework/Versions/3.7/lib/python3.7/random.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in linkedlist.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -131,10 +136,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.markov" />
+        <item itemvalue="Python.random" />
         <item itemvalue="Python.dictogram" />
         <item itemvalue="Python tests.pytest in linkedlist.py" />
         <item itemvalue="Python tests.pytest in linkedlist_test.py" />
-        <item itemvalue="Python tests.pytest for linkedlist.test_linked_list" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573517944845</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="markov chain added">
+      <created>1573853186124</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1573853186125</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,6 +282,7 @@
     <MESSAGE value="listogram completed" />
     <MESSAGE value="added few methods on LinkedList class" />
     <MESSAGE value="delete method added" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete method added" />
+    <MESSAGE value="markov chain added" />
+    <option name="LAST_COMMIT_MESSAGE" value="markov chain added" />
   </component>
 </project>
