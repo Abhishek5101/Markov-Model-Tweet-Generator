@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3121a130-feb5-4536-83db-f5fd5597a79d" name="Default Changelist" comment="">
+    <list default="true" id="3121a130-feb5-4536-83db-f5fd5597a79d" name="Default Changelist" comment="delete method added">
+      <change afterPath="$PROJECT_DIR$/markov.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist.py" afterDir="false" />
     </list>
@@ -39,8 +40,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.listogram">
-    <configuration name="listogram" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.markov">
+    <configuration name="dictogram" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tweetGenerator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -52,7 +53,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listogram.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dictogram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -61,7 +62,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for dictogram_test.DictogramTest.test_sample" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="markov" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tweetGenerator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/markov.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for linkedlist.test_linked_list" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="tweetGenerator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,11 +94,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;dictogram_test.DictogramTest.test_sample&quot;" />
+      <option name="_new_target" value="&quot;linkedlist.test_linked_list&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for listogram_test.ListogramTest.test_types" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in linkedlist.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="tweetGenerator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,26 +109,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;listogram_test.ListogramTest.test_types&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in dictogram_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="tweetGenerator" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/dictogram_test.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/linkedlist.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in listogram_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in linkedlist_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="tweetGenerator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,17 +124,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/listogram_test.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/linkedlist_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.listogram" />
-        <item itemvalue="Python tests.pytest in listogram_test.py" />
-        <item itemvalue="Python tests.pytest for listogram_test.ListogramTest.test_types" />
-        <item itemvalue="Python tests.pytest for dictogram_test.DictogramTest.test_sample" />
-        <item itemvalue="Python tests.pytest in dictogram_test.py" />
+        <item itemvalue="Python.markov" />
+        <item itemvalue="Python.dictogram" />
+        <item itemvalue="Python tests.pytest in linkedlist.py" />
+        <item itemvalue="Python tests.pytest in linkedlist_test.py" />
+        <item itemvalue="Python tests.pytest for linkedlist.test_linked_list" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573516982542</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="delete method added">
+      <created>1573517944845</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1573517944845</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,6 +269,7 @@
     <MESSAGE value="dictogram completed" />
     <MESSAGE value="listogram completed" />
     <MESSAGE value="added few methods on LinkedList class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added few methods on LinkedList class" />
+    <MESSAGE value="delete method added" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete method added" />
   </component>
 </project>

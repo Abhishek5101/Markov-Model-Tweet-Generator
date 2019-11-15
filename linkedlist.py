@@ -17,7 +17,7 @@ class LinkedList(object):
 
     def __init__(self, items=None):
         """Initialize this linked list and append the given items, if any."""
-        self.head = Node(None)  # First node
+        self.head = None  # First node
         self.tail = None  # Last node
         # Append given items
         if items is not None:
