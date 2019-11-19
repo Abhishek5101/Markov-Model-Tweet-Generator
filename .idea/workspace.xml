@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3121a130-feb5-4536-83db-f5fd5597a79d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markov.py" beforeDir="false" afterPath="$PROJECT_DIR$/markov.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.markov">
+  <component name="RunManager" selected="Python tests.pytest for linkedlist_test.LinkedListTest.test_find">
     <configuration name="dictogram" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tweetGenerator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,6 +103,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for linkedlist_test.LinkedListTest.test_find" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="tweetGenerator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;linkedlist_test.LinkedListTest.test_find&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in linkedlist.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="tweetGenerator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,28 +133,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in linkedlist_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="tweetGenerator" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/linkedlist_test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for linkedlist_test.LinkedListTest.test_find" />
+        <item itemvalue="Python tests.pytest in linkedlist.py" />
         <item itemvalue="Python.markov" />
         <item itemvalue="Python.random" />
         <item itemvalue="Python.dictogram" />
-        <item itemvalue="Python tests.pytest in linkedlist.py" />
-        <item itemvalue="Python tests.pytest in linkedlist_test.py" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573853186125</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="markov chain with sample method added">
+      <created>1573854621533</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1573854621533</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,6 +290,7 @@
     <MESSAGE value="added few methods on LinkedList class" />
     <MESSAGE value="delete method added" />
     <MESSAGE value="markov chain added" />
-    <option name="LAST_COMMIT_MESSAGE" value="markov chain added" />
+    <MESSAGE value="markov chain with sample method added" />
+    <option name="LAST_COMMIT_MESSAGE" value="markov chain with sample method added" />
   </component>
 </project>
