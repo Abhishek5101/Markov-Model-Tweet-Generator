@@ -69,11 +69,10 @@ class LinkedList(object):
         # TODO: Create new node to hold given item
         # TODO: Append node after tail, if it exists
         new_node = Node(item)
-        if self.tail is None:
+        if self.is_empty():
             self.head = new_node
         else:
-            last_node = self.tail
-            last_node.next = new_node
+            self.tail.next = new_node
         self.tail = new_node
 
     def prepend(self, item):
@@ -82,7 +81,7 @@ class LinkedList(object):
         # TODO: Create new node to hold given item
         new_node = Node(item)
         # TODO: Prepend node before head, if it exists
-        if self.head is None:
+        if self.is_empty():
             self.tail = new_node
         else:
             new_node.next = self.head
@@ -109,15 +108,19 @@ class LinkedList(object):
         # TODO: Update previous node to skip around node with matching data
         # TODO: Otherwise raise error to tell user that delete has failed
         # Hint: raise ValueError('Item not found: {}'.format(item))
-        current_node = self.head.next
+        current_node = self.head
         while current_node is not None:
-            last_node = current_node
+            previous_node = current_node
             if current_node.data == item:
-                last_node.next = current_node.next
+                if current_node == self.head:
+                    self.head = current_node.next
+                previous_node.next = current_node.next
+                if current_node == self.tail:
+                    previous_node.next = current_node
                 return
             current_node = current_node.next
-        return f"{ item } not found"
-        
+        raise ValueError('Item not found: {}'.format(item))
+    
         
 def test_linked_list():
     ll = LinkedList()
