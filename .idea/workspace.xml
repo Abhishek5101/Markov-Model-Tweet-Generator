@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3121a130-feb5-4536-83db-f5fd5597a79d" name="Default Changelist" comment="linked list done">
+    <list default="true" id="3121a130-feb5-4536-83db-f5fd5597a79d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashtable.py" beforeDir="false" afterPath="$PROJECT_DIR$/hashtable.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -256,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574302614866</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added replace method">
+      <created>1574456180385</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1574456180385</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,6 +296,7 @@
     <MESSAGE value="markov chain with sample method added" />
     <MESSAGE value="linked list methods added" />
     <MESSAGE value="linked list done" />
-    <option name="LAST_COMMIT_MESSAGE" value="linked list done" />
+    <MESSAGE value="added replace method" />
+    <option name="LAST_COMMIT_MESSAGE" value="added replace method" />
   </component>
 </project>
