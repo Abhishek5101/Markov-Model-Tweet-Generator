@@ -71,6 +71,8 @@ class LinkedListTest(unittest.TestCase):
         assert ll.length() == 2
         ll.append('C')
         assert ll.length() == 3
+        ll.append('D')
+        assert ll.length() == 4
 
     def test_length_after_prepend(self):
         ll = LinkedList()
@@ -82,6 +84,8 @@ class LinkedListTest(unittest.TestCase):
         assert ll.length() == 2
         ll.prepend('A')
         assert ll.length() == 3
+        ll.prepend('Data before A')
+        assert ll.length() == 4
 
     def test_length_after_append_and_prepend(self):
         ll = LinkedList()
@@ -95,6 +99,10 @@ class LinkedListTest(unittest.TestCase):
         assert ll.length() == 3
         ll.prepend('A')
         assert ll.length() == 4
+        ll.append('C')
+        assert ll.length() == 5
+
+        
 
     def test_length_after_delete(self):
         ll = LinkedList(['A', 'B', 'C', 'D', 'E'])
@@ -123,6 +131,10 @@ class LinkedListTest(unittest.TestCase):
         ll.append('C')
         assert ll.head.data == 'A'  # Unchanged
         assert ll.tail.data == 'C'  # New tail
+        ll.append('D')
+        assert ll.head.data == 'A'  # Unchanged
+        assert ll.tail.data == 'D'  # New tail
+
 
     def test_prepend(self):
         ll = LinkedList()
@@ -136,14 +148,22 @@ class LinkedListTest(unittest.TestCase):
         ll.prepend('A')
         assert ll.head.data == 'A'  # New head
         assert ll.tail.data == 'C'  # Unchanged
+        ll.prepend('D')
+        assert ll.head.data == 'D'  # New head
+        assert ll.tail.data == 'C'  # Unchanged
+
 
     def test_find(self):
-        ll = LinkedList(['A', 'B', 'C'])
+        ll = LinkedList(['A', 'B', 'C', 'D'])
         assert ll.find(lambda item: item == 'B') == 'B'  # Match equality
         assert ll.find(lambda item: item < 'B') == 'A'  # Match less than
         assert ll.find(lambda item: item > 'B') == 'C'  # Match greater than
         assert ll.find(lambda item: item == 'X') is None  # No matching item
+        assert ll.find(lambda item: item == 'D') == 'D'  # Match equality
+        assert ll.find(lambda item: item == 'Y') is None  # No matching item
 
+
+    
     def test_delete_with_3_items(self):
         ll = LinkedList(['A', 'B', 'C'])
         assert ll.head.data == 'A'  # First item

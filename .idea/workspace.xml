@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3121a130-feb5-4536-83db-f5fd5597a79d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for linkedlist_test.LinkedListTest.test_append">
+  <component name="RunManager" selected="Python tests.pytest for linkedlist_test.LinkedListTest">
     <configuration name="pytest for linkedlist_test.LinkedListTest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="tweetGenerator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -52,21 +52,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;linkedlist_test.LinkedListTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for linkedlist_test.LinkedListTest.test_append" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="tweetGenerator" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;linkedlist_test.LinkedListTest.test_append&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -85,7 +70,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for linkedlist_test.LinkedListTest.test_prepend" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for linkedlist_test.LinkedListTest.test_length_after_prepend" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="tweetGenerator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,7 +81,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;linkedlist_test.LinkedListTest.test_prepend&quot;" />
+      <option name="_new_target" value="&quot;linkedlist_test.LinkedListTest.test_length_after_prepend&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -115,13 +100,28 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in linkedlist_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="tweetGenerator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/linkedlist_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for linkedlist_test.LinkedListTest.test_append" />
-        <item itemvalue="Python tests.pytest in linkedlist.py" />
-        <item itemvalue="Python tests.pytest for linkedlist_test.LinkedListTest.test_prepend" />
-        <item itemvalue="Python tests.pytest for linkedlist_test.LinkedListTest.test_delete_with_5_items" />
         <item itemvalue="Python tests.pytest for linkedlist_test.LinkedListTest" />
+        <item itemvalue="Python tests.pytest in linkedlist_test.py" />
+        <item itemvalue="Python tests.pytest for linkedlist_test.LinkedListTest.test_delete_with_5_items" />
+        <item itemvalue="Python tests.pytest for linkedlist_test.LinkedListTest.test_length_after_prepend" />
+        <item itemvalue="Python tests.pytest in linkedlist.py" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574456180385</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="linkedlist instances are now iterable">
+      <created>1574458423832</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1574458423832</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,6 +304,7 @@
     <MESSAGE value="linked list methods added" />
     <MESSAGE value="linked list done" />
     <MESSAGE value="added replace method" />
-    <option name="LAST_COMMIT_MESSAGE" value="added replace method" />
+    <MESSAGE value="linkedlist instances are now iterable" />
+    <option name="LAST_COMMIT_MESSAGE" value="linkedlist instances are now iterable" />
   </component>
 </project>
