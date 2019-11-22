@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3121a130-feb5-4536-83db-f5fd5597a79d" name="Default Changelist" comment="linked list methods added">
+    <list default="true" id="3121a130-feb5-4536-83db-f5fd5597a79d" name="Default Changelist" comment="linked list done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashtable.py" beforeDir="false" afterPath="$PROJECT_DIR$/hashtable.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in linkedlist.py">
+  <component name="RunManager" selected="Python tests.pytest for linkedlist_test.LinkedListTest.test_append">
     <configuration name="pytest for linkedlist_test.LinkedListTest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="tweetGenerator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,7 +86,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for linkedlist.test_linked_list" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for linkedlist_test.LinkedListTest.test_prepend" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="tweetGenerator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,7 +97,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;linkedlist.test_linked_list&quot;" />
+      <option name="_new_target" value="&quot;linkedlist_test.LinkedListTest.test_prepend&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -117,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in linkedlist.py" />
         <item itemvalue="Python tests.pytest for linkedlist_test.LinkedListTest.test_append" />
+        <item itemvalue="Python tests.pytest in linkedlist.py" />
+        <item itemvalue="Python tests.pytest for linkedlist_test.LinkedListTest.test_prepend" />
         <item itemvalue="Python tests.pytest for linkedlist_test.LinkedListTest.test_delete_with_5_items" />
         <item itemvalue="Python tests.pytest for linkedlist_test.LinkedListTest" />
-        <item itemvalue="Python tests.pytest for linkedlist.test_linked_list" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574153288809</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="linked list done">
+      <created>1574302614866</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1574302614866</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,6 +289,7 @@
     <MESSAGE value="markov chain added" />
     <MESSAGE value="markov chain with sample method added" />
     <MESSAGE value="linked list methods added" />
-    <option name="LAST_COMMIT_MESSAGE" value="linked list methods added" />
+    <MESSAGE value="linked list done" />
+    <option name="LAST_COMMIT_MESSAGE" value="linked list done" />
   </component>
 </project>
