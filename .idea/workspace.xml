@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3121a130-feb5-4536-83db-f5fd5597a79d" name="Default Changelist" comment="">
+    <list default="true" id="3121a130-feb5-4536-83db-f5fd5597a79d" name="Default Changelist" comment="additional tests added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedlist_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashtable.py" beforeDir="false" afterPath="$PROJECT_DIR$/hashtable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +40,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for linkedlist_test.LinkedListTest">
-    <configuration name="pytest for linkedlist_test.LinkedListTest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for hashtable_test.HashTableTest.test_init">
+    <configuration name="pytest for hashtable_test.HashTableTest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="tweetGenerator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -51,11 +52,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;linkedlist_test.LinkedListTest&quot;" />
+      <option name="_new_target" value="&quot;hashtable_test.HashTableTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for linkedlist_test.LinkedListTest.test_delete_with_5_items" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for hashtable_test.HashTableTest.test_init" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="tweetGenerator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,11 +67,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;linkedlist_test.LinkedListTest.test_delete_with_5_items&quot;" />
+      <option name="_new_target" value="&quot;hashtable_test.HashTableTest.test_init&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for linkedlist_test.LinkedListTest.test_length_after_prepend" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for hashtable.test_hash_table" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="tweetGenerator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +82,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;linkedlist_test.LinkedListTest.test_length_after_prepend&quot;" />
+      <option name="_new_target" value="&quot;hashtable.test_hash_table&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in linkedlist.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in hashtable.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="tweetGenerator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,7 +97,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/linkedlist.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/hashtable.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -117,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for linkedlist_test.LinkedListTest" />
+        <item itemvalue="Python tests.pytest for hashtable_test.HashTableTest.test_init" />
+        <item itemvalue="Python tests.pytest in hashtable.py" />
+        <item itemvalue="Python tests.pytest for hashtable_test.HashTableTest" />
+        <item itemvalue="Python tests.pytest for hashtable.test_hash_table" />
         <item itemvalue="Python tests.pytest in linkedlist_test.py" />
-        <item itemvalue="Python tests.pytest for linkedlist_test.LinkedListTest.test_delete_with_5_items" />
-        <item itemvalue="Python tests.pytest for linkedlist_test.LinkedListTest.test_length_after_prepend" />
-        <item itemvalue="Python tests.pytest in linkedlist.py" />
       </list>
     </recent_temporary>
   </component>
@@ -269,8 +270,25 @@
       <option name="project" value="LOCAL" />
       <updated>1574458423832</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="additional tests added">
+      <created>1574465610152</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1574465610152</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -305,6 +323,7 @@
     <MESSAGE value="linked list done" />
     <MESSAGE value="added replace method" />
     <MESSAGE value="linkedlist instances are now iterable" />
-    <option name="LAST_COMMIT_MESSAGE" value="linkedlist instances are now iterable" />
+    <MESSAGE value="additional tests added" />
+    <option name="LAST_COMMIT_MESSAGE" value="additional tests added" />
   </component>
 </project>

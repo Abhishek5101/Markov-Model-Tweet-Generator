@@ -37,9 +37,10 @@ class LinkedList(object):
         return self
 
     def __next__(self):
-        if self.node is not None:
-            current_node = self.node
-            self.node = self.node.next
+        node = self.head
+        if node is not None:
+            current_node = node
+            node = node.next
             return current_node
         raise StopIteration("Outta Range Buddy")
 
