@@ -26,7 +26,8 @@ class HashTable(object):
 
     def keys(self):
         """Return a list of all keys in this hash table.
-        TODO: Running time: O(???) Why and under what conditions?"""
+        TODO: Running time: O(???) Why and under what conditions?
+        O(n) because it needs to collect all the values"""
         # Collect all keys in each bucket
         all_keys = []
         for bucket in self.buckets:

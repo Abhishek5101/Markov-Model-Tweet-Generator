@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3121a130-feb5-4536-83db-f5fd5597a79d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markov.py" beforeDir="false" afterPath="$PROJECT_DIR$/markov.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashtable.py" beforeDir="false" afterPath="$PROJECT_DIR$/hashtable.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -315,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575436205775</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="linkedList delete_method bug fixed">
+      <created>1576173932147</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1576173932147</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -364,6 +368,7 @@
     <MESSAGE value="additional tests added" />
     <MESSAGE value="hash tables all tests passed" />
     <MESSAGE value="Time complexity analysis added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Time complexity analysis added" />
+    <MESSAGE value="linkedList delete_method bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="linkedList delete_method bug fixed" />
   </component>
 </project>
