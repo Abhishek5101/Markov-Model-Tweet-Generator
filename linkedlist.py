@@ -120,18 +120,29 @@ class LinkedList(object):
         # TODO: Otherwise raise error to tell user that delete has failed
         # Hint: raise ValueError('Item not found: {}'.format(item))
         current_node = self.head
+        # while current_node and current_node.data != item:
+        #     previous_node = current_node
+        #     current_node = current_node.next
+        #     if current_node.data == item:
+        #         if current_node == self.head:
+        #             self.head = current_node.next
+        #         previous_node.next = current_node.next
+        #         if current_node == self.tail:
+        #             previous_node.next = current_node
+        #         return
+        # raise ValueError('Item not found: {}'.format(item))
         while current_node is not None:
             previous_node = current_node
             if current_node.data == item:
-                if current_node == self.head:
-                    self.head = current_node.next
                 previous_node.next = current_node.next
-                if current_node == self.tail:
-                    previous_node.next = current_node
                 return
             current_node = current_node.next
+        
+        if self.head or self.tail is None:
+            current_node = None
         raise ValueError('Item not found: {}'.format(item))
-    
+
+
     def replace(self, old_data, new_data):
         """
         running time : O(n)

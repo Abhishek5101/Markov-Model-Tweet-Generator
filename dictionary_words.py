@@ -13,3 +13,4 @@ def get_random_words(n):
 	return sentence
 
 
+print(get_random_words(8))
