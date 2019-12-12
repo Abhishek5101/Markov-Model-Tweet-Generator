@@ -119,29 +119,29 @@ class LinkedList(object):
         # TODO: Update previous node to skip around node with matching data
         # TODO: Otherwise raise error to tell user that delete has failed
         # Hint: raise ValueError('Item not found: {}'.format(item))
-        current_node = self.head
-        # while current_node and current_node.data != item:
-        #     previous_node = current_node
-        #     current_node = current_node.next
-        #     if current_node.data == item:
-        #         if current_node == self.head:
-        #             self.head = current_node.next
-        #         previous_node.next = current_node.next
-        #         if current_node == self.tail:
-        #             previous_node.next = current_node
-        #         return
-        # raise ValueError('Item not found: {}'.format(item))
-        while current_node is not None:
-            previous_node = current_node
-            if current_node.data == item:
-                previous_node.next = current_node.next
-                return
-            current_node = current_node.next
-        
-        if self.head or self.tail is None:
-            current_node = None
-        raise ValueError('Item not found: {}'.format(item))
+        if not self.head:
+            raise ValueError(f"Item not found: {item}")
+        if self.head.data == item:
+            if self.head == self.tail:
+                self.head, self.tail = None, None
+            else:
+                self.head = self.head.next
+            return
+        else:
+            current_node = self.head.next
+            previous_node = self.head
+            while current_node is not None:
+                if current_node.data == item:
+                    if current_node == self.tail:
+                        self.tail = previous_node
+                        previous_node.next = None
+                    else:
+                        previous_node.next = current_node.next
+                    return
+                previous_node = current_node
+                current_node = current_node.next
 
+        raise ValueError(f"Item not found: {item}")
 
     def replace(self, old_data, new_data):
         """

@@ -34,15 +34,6 @@ def second_order():
 			markov[(first_word, middle_word)] = Dictogram([last_word])
 		else:
 			markov[(first_word, middle_word)].add_count(last_word)
-		# sentence = " "
-		# first2words = choice(list(markov.keys()))
-		# for word in first2words:
-		# 	sentence += ' ' + word
-		# for i in range(4):
-		# 	twowords = markov[first2words].sample()
-		# 	for word in twowords:
-		# 		sentence += ' ' + word
-	
 	return markov
 
 
@@ -68,4 +59,3 @@ def generate_sentence():
 	return sentence
 
 
-print(generate_sentence())
