@@ -6,12 +6,13 @@ import unittest
 if not hasattr(unittest.TestCase, 'assertCountEqual'):
     unittest.TestCase.assertCountEqual = unittest.TestCase.assertItemsEqual
 
-
+ 
 class ListogramTest(unittest.TestCase):
 
     # Test fixtures: known inputs and their expected results
     fish_words = ['one', 'fish', 'two', 'fish', 'red', 'fish', 'blue', 'fish']
-    fish_list = [('one', 1), ('fish', 4), ('two', 1), ('red', 1), ('blue', 1)]
+    # fish_list = [('one', 1), ('fish', 4), ('two', 1), ('red', 1), ('blue', 1)]
+    fish_list = [['one', 1], ['fish', 4], ['two', 1], ['red', 1], ['blue', 1]]
     fish_dict = {'one': 1, 'fish': 4, 'two': 1, 'red': 1, 'blue': 1}
 
     def test_entries(self):
@@ -29,9 +30,11 @@ class ListogramTest(unittest.TestCase):
 
     def test_contains(self):
         histogram = Listogram(self.fish_words)
+        print(f"histogram in test: {histogram}")
         # All of these words should be found
         for word in self.fish_words:
             assert word in histogram
+            # assert histogram.__contains__(word)
         # None of these words should be found
         for word in ('fishy', 'food'):
             assert word not in histogram

@@ -26,7 +26,6 @@ class HashTable(object):
 
     def keys(self):
         """Return a list of all keys in this hash table.
-        TODO: Running time: O(???) Why and under what conditions?
         O(n) because it needs to collect all the values"""
         # Collect all keys in each bucket
         all_keys = []
@@ -96,7 +95,7 @@ class HashTable(object):
         for k, v in bucket.items():
             if k == key:
                 return v
-        return KeyError('Key not found: {}'.format(key))
+        raise KeyError('Key not found: {}'.format(key))
 
     def set(self, key, value):
         """Insert or update the given key with its associated value.
