@@ -39,16 +39,11 @@ def second_order():
 
 def get_tuples(word):
 	markov = second_order()
-	all_tuples = []
-	
-	for each_tuple in list(markov):
-		if word == each_tuple[0]:
-			all_tuples.append(each_tuple)
-	
+	all_tuples = [each_tuple for each_tuple in list(markov) if word == each_tuple[0]]
 	return all_tuples
 
 
-def generate_sentence():
+def sentence_generator():
 	markov = second_order()
 	word = choice(choice(list(markov)))
 	sentence = " " + word
@@ -59,3 +54,4 @@ def generate_sentence():
 	return sentence
 
 
+print(sentence_generator())
